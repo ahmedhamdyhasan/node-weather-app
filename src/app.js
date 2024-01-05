@@ -4,21 +4,6 @@ const country = process.argv[2];
 
 
 
-
-
-  
-  
-  // if (data) {
-  //   weatherData( data.latitude , data.longtitude , (error , data) => {
-        //  return data.latitude
-    //  } )
-  // } else {
-  //     console.log("Data Entered have An Error")
-//   }
- 
-//  ) 
-
-
 getLonAndLat ( country , (error , data) => {
   console.log("ERROR : " , error)
   console.log("DATA  : " , data)
